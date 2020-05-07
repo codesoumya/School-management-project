@@ -45,6 +45,7 @@ session_start();
                         <li class="nav-item mx-2"><a class="nav-link" href="../index.php"><i class="fa fa-address-card text-warning" aria-hidden="true"></i> SMS</a></li>
                         <li class="nav-item mx-2"><a class="nav-link" href="regestration_form.php"><i class="fa fa-user-plus text-success" aria-hidden="true"></i> Add User</a></li>
                         <li class="nav-item mx-2"><a class="nav-link" href="index.php?page=user_profile"><i class="fa fa-user text-info" aria-hidden="true"></i> Profile</a></li>
+                        <li class="nav-item mx-2"><a class="nav-link" href="index.php?page=add-teacher"><i class="fa fa-user-plus text-success" aria-hidden="true"></i> Add Teachers</a></li>
                         <li class="nav-item mx-2"><a class="nav-link" href="log-out.php"><i class="fa fa-power-off text-danger" aria-hidden="true"></i> Log Out</a></li>
                         <li class="nav-item mx-2 nav-link text-warning"><small class="text-info"><i class="fa fa-globe text-primary" aria-hidden="true"></i> Welcome: </small><?php echo $row['username'];?>  <img style="width:25px; border-radius: 10px;" src="user_images/<?php echo $row['photo']?>" alt=""> </li>
                     </ul>
@@ -57,6 +58,7 @@ session_start();
                     <ul class="list-group bg- p-1 pr-">
                         <a class="text-dark bg-light m-1 list-group-item list-group-item-action " href="index.php<?php echo ("?page=dashbord"); ?>"><i class="fa fa-tachometer text-primary" aria-hidden="true"></i> Dashboard</a>
                         <a class="text-dark bg-light m-1  list-group-item list-group-item-action" href="index.php?page=add-student"><i class="fa fa-user-plus text-success" aria-hidden="true"></i> Add Student</a>
+                        <a class="text-dark bg-light m-1 list-group-item list-group-item-action" href="index.php?page=all-teacher"><i class="fa fa-users text-info" aria-hidden="true"></i> All Teachers</a>
                        <!-- <a class="text-dark bg-light m-1 list-group-item list-group-item-action" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update Student</a>-->
                         <a class="text-dark bg-light m-1 list-group-item list-group-item-action" href="index.php?page=all-student"><i class="fa fa-user-circle text-warning" aria-hidden="true"></i> All Student</a>
                         <a class="text-dark bg-light m-1 list-group-item list-group-item-action" href="index.php?page=all-users"><i class="fa fa-users text-info" aria-hidden="true"></i> All Users</a>
